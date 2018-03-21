@@ -36,3 +36,11 @@ cur = conn.cursor()
 open_with_csv('rent_data.csv', cur)
 conn.commit()
 cur.close()
+
+#filter data to show needed data
+#SELECT State,
+#ROUND(AVG(Mean_Cost)) as Mean,
+#ROUND(AVG(Median_Cost)) as Median,
+#ROUND(AVG(Mean_Cost)/7.25) as Mean_Hours_Worked,
+#ROUND(AVG(Median_Cost)/7.25) as Median_Hours_Worked
+#FROM rent_table GROUP BY State;
