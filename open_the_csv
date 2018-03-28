@@ -1,0 +1,10 @@
+import csv
+import numpy
+import sqlite3
+
+def open_csv(filename, cursor, d=', '):
+    with open(filename) as tsvin:
+        rent_reader = csv.reader(tsvin, delimiter=d)
+        for line in rent_reader:
+            insert_string = insert_string = "INSERT INTO rent_table (State, County, City, Mean_Cost, Median_Cost, Standard_Deviation) VALUES ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}');".format(line[2], line[4], line[5], line[15], line[16], line[17])
+            cursor.execute(insert_string)
