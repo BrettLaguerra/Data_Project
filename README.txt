@@ -9,7 +9,7 @@ The only requirement to visualize this data is to install Anaconda; which can be
 https://www.anaconda.com/download/
 
 The first table is the csv file imported with no alterations(Out[3]).  The second table shows each state's
-abreviation, mean rent per month, monthly hours worked at national minimum, and monthly hours worked at average 
+abbreviation, mean rent per month, monthly hours worked at national minimum, and monthly hours worked at average 
 minimum(Out[7]).    The first bar graph is a representation of mean monthly rent in descending order(Out[8]).  
 Lastly the second bar graph shows a comparison of the number of hours worked monthy at both the national minimum
 and the average minimum wages in descending order(Out[9]).
